@@ -1,0 +1,19 @@
+{
+    "containerDefinitions": [
+        {
+            "name": "hello",
+            "image": "REPO/BUILD",
+            "memory": 500,
+            "portMappings": [
+                {
+                    "containerPort": 80
+                }
+            ],
+            "essential": true
+        }
+    ],
+    "volumes": [],
+    "networkMode": "bridge",
+    "placementConstraints": [],
+    "family": "hello"
+}

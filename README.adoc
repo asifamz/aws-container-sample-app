@@ -1,0 +1,7 @@
+:icons:
+:linkcss:
+:imagesdir: ./images
+
+= Title
+
+This is a sample app
