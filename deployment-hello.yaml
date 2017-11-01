@@ -25,7 +25,7 @@ spec:
         app: hello-jenkins
     spec:
       containers:
-      - name: movies
-        image: 016309051001.dkr.ecr.us-east-1.amazonaws.com/hello:latest
+      - name: hello
+        image: omarlari/hello:latest
         ports:
         - containerPort: 80
